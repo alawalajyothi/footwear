@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOOT WALK</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>FOOT 👟 WALK</h2>
+            <p>Step In To Your Styles</p>
+        </div>
+
+          <ul class="navlink">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="collections.html">COLLECTIONS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+          </ul>
+
+        <div class="search">
+            <input type="text" id="search-input" placeholder="searchproducts">    
+             <button onclick="searchfoot()">🔍search
+             </button>
+        </div>
+        
+
+          <div class="icons">
+            <i class="fa-solid fa-user">👤</i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+
+          <div class="cart">
+               <a href="cart.html">
+               Cart 🛒 (<span id="count">0</span>)
+               </a>
+          </div>
+     </nav>
+      
+        
+        
+         
+
+        <section class="hero">
+        <div class="second">
+            <h1>NEW COLLECTIONS</h1>
+            <h2> Discover The Latest Trends</h2>
+            <button>Shop Now</button>    
+        </div>
+
+        <div class="img">
+            <img src="foot 1 img.webp">
+        </div>
+        </section>
+
+
+    <section class="benefits">
+
+        <div class="benefit">
+            <span>🚚</span>
+                <div>
+                  <h3>Free Shipping</h3>
+                  <p>On all orders above ₹999</p>
+                </div>
+        </div>
+
+        <div class="benefit">
+            <span>↩️</span>
+                <div>
+                  <h3>Easy Returns</h3>
+                  <p>30 days return policy</p> 
+                </div>   
+        </div>
+
+        <div class="benefit">
+                <span>🛡️</span>
+                <div>
+                   <h3>Secure Payment</h3>
+                   <p>100% secure payment</p> 
+                </div>
+        </div>
+        <div class="benefit">
+                <span>🎧</span>
+                <div>
+                   <h3>24/7</h3>
+                   <p>We are here to help</p> 
+                </div>
+        </div>
+    </section>
+
+    
+     <div class="new">
+          <h3>Trending Now</h3>
+          <h1>NEW COLLECTIONS</h1>
+       </div> 
+  
+
+    <section class="products">
+    <div class="product">
+          <div class="share"><button class="share-btn">↗️</button></div>
+          <div class="like"><button class="like-btn">♡</button></div> 
+          <img src="baby chapal.jpg">
+          <h3>BABY CHAPPAL</h3>
+          <p class="price">$380</p>
+          <div class="rating">⭐⭐⭐⭐⭐<span>4.2</span></div> 
+          <button class="btn">🛒 </button>   
+          <button class="details">show details</button>
+          <button id="place-order">Place Order</button>   
+          <p class="product-info" style="display:none">
+            
+
+               COMFORTABLE BABY WEAR CHAPPAL<br>
+               Price:$380
+               Rating:⭐⭐⭐⭐⭐ 
+               Available sizes : M , XL 
+               Colors : All Colors Availabe
+
+         </p>
+     </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="baby crocks.jpg">
+         <h3>BABY CROCKS</h3>
+         <p class="price">$450</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>4.2</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button>
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+
+          COMFORTABLE BABY WEAR crocks<br>
+          Price : $450
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+     </p>
+         
+        
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <a href="sharelink">↗️ Share</a>
+         <img src="baby flipflop.jpg">
+         <h3>BABY FLIP FLOPS</h3>
+         <p class="price">$400</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>11.6</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button>
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          
+          COMFORTABLE BABY FLIP FLOPS<br>
+          Price : $400
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+  
+     </p>
+       
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>       
+         <img src="baby hills.jpg">
+         <h3>BABY HILLS</h3>
+         <p class="price">$800</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>15.8</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE BABY HILLS<br>
+          Price : $800
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+   
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="baby sandals.jpg">
+         <h3>BABY SANDALS</h3>
+         <p class="price">$999</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>50.4</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button>
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE BABY SANDALS<br>
+          Price : $999
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p> 
+        
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>  
+         <img src="daily use.jpg">
+         <h3>BABY DAILT WEAR</h3>
+         <p class="price">$300</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>10.10</span></div> 
+          <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE BABY DAILY WEAR<br>
+          Price : $300
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+      
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>  
+         <img src="ethnic chapal.jpg">
+         <h3>ETHNIC CHAPPAL</h3>
+         <p class="price">$700</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>11.11</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          STYLE ETHINIC CHAPPAL<br>
+          Price : $700
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+       
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="flat chapal.avif">
+         <h3>GIRLS FLAT WEAR</h3>
+         <p class="price">$350</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>12.12</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          FLAT WEAR CHAPPAL<br>
+          Price : $350
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="flat sandal.webp">
+         <h3>GIRLS FLAT SANDALS</h3>
+         <p class="price">$888</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>8.5</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button>   
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          GIRLS FLAT SANDALS <br>
+          Price : $888
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>      
+        
+    </div>
+     <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>  
+         <div class="like"><button class="like-btn">♡</button></div>   
+         <img src="flip flop.jpg">
+         <h3>GIRLS FLIP FLOPS</h3>
+         <p class="price">$550</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>9.6</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <p class="product-info" style="display:none">
+          COMFORTABLE GIRLS FLIP FLOP<br>
+          Price : $550
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+      
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>    
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="half shoe.avif">
+         <h3>MODERN HALF WEAR</h3>
+         <p class="price">$250</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>10.4</span></div> 
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE MODERN HALF WEAR<br>
+          Price : $250
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="normal hills.jpg">
+         <h3>NORMAL HILLS</h3>
+         <p class="price">$450</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>10.9</span></div>  
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE NORMMAL HILLS<br>
+          Price : $450
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+       
+    </div>
+     <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="office wear.webp">
+         <h3>GIRLS OFFICE WEAR</h3>
+         <p class="price">$880</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>7.3</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE GRILS OFFICE WEAR<br>
+          Price : $880
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+       
+    </div>
+     <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>  
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="party wear.webp">
+         <h3>PARTY WEAR</h3>
+         <p class="price">$770</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>9.00</span></div> 
+         <button class="btn">🛒</button>
+         <button class="details">show details</button>
+         <button id="place-order">Place Order</button>   
+         <p class="product-info" style="display:none">
+          COMFORTABLE PARTY WEAR<br>
+          Price : $770
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+     <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>  
+         <div class="like"><button class="like-btn">♡</button></div>   
+         <img src="shoes.webp">
+         <h3>SHOES</h3>
+         <p class="price">$550</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>3.7</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+           COMFORTABLE SHOES <br>
+          Price : $550
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+       
+    </div>
+     <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>  
+         <div class="like"><button class="like-btn">♡</button></div>    
+         <img src="slipper.png">
+         <h3>SLIPPERS</h3>
+         <p class="price">$650</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>7.7</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE SLIPPERS<br>
+          Price : $650
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+     <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>  
+         <div class="like"><button class="like-btn">♡</button></div>   
+         <img src="new model.jpg">
+         <h3>BOYS CHAPPAL</h3>
+         <p class="price">$360</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>8.5</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button>
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE BOYS CHAPPAL<br>
+          Price : $360
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p> 
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>  
+         <img src="waterproof boy.webp">
+         <h3>BOYS WATERPROOF CHAPPAL</h3>
+         <p class="price">$399</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>9.8</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE WATERPROOF BOYS CHAPPAL<br>
+          Price : $399
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>  
+         <img src="kolhapuri.jpg">
+         <h3>KOLHAPURI</h3>
+         <p class="price">$299</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>10.5</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          TRADITIONAL KOLHAPURI CHAPPAL<br>
+          Price : $299
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>        
+       
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="leather wear.jpg">
+         <h3>LEATHER WEAR</h3>
+         <p class="price">$444</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>1.5</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button>
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          LEATHER WEAR<br>
+          Price : $444
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+         
+         
+       
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="boy chappal.jpg">
+         <h3>BOYS CHAPPALS</h3>
+         <p class="price">$550</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>5.5</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE BOYS CHAPPAL<br>
+          Price : $550
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>  
+         <img src="causual wear.jpg">
+         <h3>CAUSUAL WEAR</h3>
+         <p class="price">$450</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>15.8</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE CAUSUAL WEAR<br>
+          Price : $450
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+    
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div>  
+         <img src="sports shoe.webp">
+         <h3>SPORTS SHOES</h3>
+         <p class="price">$890</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>10.50</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          SPORTS SHOES <br>
+          Price : $890
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="boys office wear.avif">
+         <h3>OFFICE WEAR</h3>
+         <p class="price">$990</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>1.55</span></div>
+         <button class="btn">🛒</button> 
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          OFFICE WEAR <br>
+          Price : $990
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+       
+    </div>
+    
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="crocks for boys.jpg">
+         <h3>CROCKS FOR BOYS</h3>
+         <p class="price">$890</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>7.5</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          COMFORTABLE BABY CROCKS WEAR<br>
+          Price : $890
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="sneakers.webp">
+         <h3>STYLE SNEAKERS</h3>
+         <p class="price">$680</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>7.5</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+          STYLISH SNEAKERS WEAR<br>
+          Price : $680
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="baby sandals.webp">
+         <h3>BABY BOY WEAR</h3>
+         <p class="price">$980</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>7.5</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+         COMFORTABLE BABY BOY WEAR <br>
+          Price : $980
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+
+    <div class="product">
+         <div class="share"><button class="share-btn">↗️</button></div>
+         <div class="like"><button class="like-btn">♡</button></div> 
+         <img src="causual wear.jpg">
+         <h3>CAUSUAL WEAR </h3>
+         <p class="price">$780</p>
+         <div class="rating">⭐⭐⭐⭐⭐<span>7.5</span></div>
+         <button class="btn">🛒</button>
+         <button class="details">show details</button> 
+         <button id="place-order">Place Order</button>  
+         <p class="product-info" style="display:none">
+         COMFORTABLE GIRLS CAUSUAL WEAR<br>
+          Price : $780
+          Rating:⭐⭐⭐⭐⭐ 
+          Available sizes : M , XL 
+          Colors : All Colors Availabe
+
+         </p>
+        
+    </div>
+
+
+    
+</section>
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-box">
+                <h2>Foot 👟 Walk</h2>
+                <p><u>Step In To Your Styles</u></p>
+            </div>
+
+            <div class="footer-box">
+              <h3><u>Quick Links</u></h3>
+              <a href="#">Home</a>
+              <a href="#">Collections</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
+
+            <div class="footer-box">
+              <h3><u>Customer Service</u></h3>
+              <a href="#">FAQs</a>
+              <a href="#">Shipping</a>
+              <a href="#">Returns</a>
+              <a href="#">Privacy Policy</a>
+            </div>
+
+            <div class="footer-box">
+              <h3><u>Contact Us</u></h3>
+              <p>📧 footwalk@gmail.com</p>
+              <p>📞 +91 98765 43210</p>
+              <p>📍 Hyderabad, India</p>
+            </div>
+
+            <div class="footer-bottom">
+              <p>© 2026 FOOT WALK. All Rights Reserved.</p>   
+            </div>
+
+            <div class="footer-box">
+               <h3><u>Follow Us</u></h3>
+               <a href="#">📷 Instagram</a>
+               <a href="#">💬 WhatsApp</a>
+               <a href="#">🐦 Twitter</a>
+            </div>
+            </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

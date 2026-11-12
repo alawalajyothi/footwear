@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | FOOT WALK</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .contact-page {
+            background: #f8f7e8;
+            min-height: 100vh;
+            padding: 50px 8%;
+        }
+
+        .contact-container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .contact-container h1 {
+            text-align: center;
+            color: #a71919;
+            font-size: 40px;
+        }
+
+        .contact-intro {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+
+        .contact-info,
+        .contact-form {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px #00000015;
+        }
+
+        .contact-info h2,
+        .contact-form h2 {
+            color: #287f83;
+        }
+
+        .contact-form input,
+        .contact-form select,
+        .contact-form textarea {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 12px;
+            margin: 8px 0 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 15px;
+        }
+
+        .contact-form button,
+        .back-home {
+            display: inline-block;
+            background: #000;
+            color: white;
+            padding: 12px 22px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover,
+        .back-home:hover {
+            background: #287f83;
+        }
+
+        @media (max-width: 650px) {
+            .contact-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .contact-container h1 {
+                font-size: 32px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main class="contact-page">
+        <div class="contact-container">
+
+            <h1>Contact FOOT WALK 👟</h1>
+
+            <p class="contact-intro">
+                Have a question? We'd love to hear from you.
+                Send us a message!
+            </p>
+
+            <div class="contact-grid">
+
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+
+                    <p>👟 <strong>Brand:</strong> FOOT WALK</p>
+                    <p>📧 <strong>Email:</strong> Add your email address</p>
+                    <p>📍 <strong>Location:</strong> Add your business location, if applicable</p>
+
+                    <h2>Customer Support</h2>
+                    <p>Product information</p>
+                    <p>Order-related questions</p>
+                    <p>Returns and exchanges</p>
+                    <p>Website assistance</p>
+
+                    <h2>Support Hours</h2>
+                    <p>Add your actual support days and hours here.</p>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+
+                    <form id="contactForm">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name"
+                               placeholder="Enter your name" required>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email"
+                               placeholder="Enter your email" required>
+
+                        <label for="subject">Subject</label>
+                        <select id="subject" required>
+                            <option value="">Choose a topic</option>
+                            <option>Product Inquiry</option>
+                            <option>Order Support</option>
+                            <option>Returns and Exchanges</option>
+                            <option>Other</option>
+                        </select>
+
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5"
+                                  placeholder="Write your message..."
+                                  required></textarea>
+
+                        <button type="submit">Send Message</button>
+
+
+                        <p id="formStatus" aria-live="polite"></p>
+                    </form>
+                </div>
+
+            </div>
+
+            <a href="index.html" class="back-home">
+                ← Back to Home
+            </a>
+
+        </div>
+    </main>
+
+    <script>
+        document.getElementById("contactForm")
+            .addEventListener("submit", function(event) {
+                event.preventDefault();
+
+                document.getElementById("formStatus").textContent =
+                    "This demo form is ready, but message sending is not connected yet.";
+            });
+            
+    </script>
+</body>
+</html>
